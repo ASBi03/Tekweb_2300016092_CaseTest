@@ -1,0 +1,18 @@
+<style>
+@media (max-width: 640px) { /* Mobile */
+    .phone-images img {
+        transform: translate(0, 0);
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) { /* Tablet */
+    .phone-images img {
+        transform: translate(-10px, 10px);
+    }
+}
+
+@media (min-width: 1025px) { /* Desktop */
+    .phone-images img {
+        transform: translate(-20px, 20px);
+    }
+}
