@@ -1,5 +1,7 @@
 //mobile
-document.getElementById('menu-toggle').addEventListener('click', function() {
+    const menuToggle = document.getElementById('menu-toggle');
     const mobileMenu = document.getElementById('mobile-menu');
-    mobileMenu.classList.toggle('hidden');
-});
+
+    menuToggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden'); // Toggle kelas "hidden" pada menu mobile
+    });
